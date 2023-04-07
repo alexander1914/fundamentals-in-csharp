@@ -6,7 +6,7 @@ namespace learning_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Starting my project");
+            Console.WriteLine("Starting my code");
 
             #region Variáveis
 
@@ -84,7 +84,7 @@ namespace learning_csharp
 
             #region Operadores Lógicos (&&, ||, !)
 
-            int numero1 = 10;
+            /*int numero1 = 10;
             int numero2 = 20;
 
             bool valido = numero2 > numero1 && 8 > 5;
@@ -94,11 +94,19 @@ namespace learning_csharp
             Console.WriteLine($"O Resultado é: {valido2}");
 
             bool valido3 = !(numero2 > 10);
-            Console.WriteLine($"O Resultado é: {valido3}");
+            Console.WriteLine($"O Resultado é: {valido3}");*/
 
             #endregion
 
-            Console.WriteLine("Finishing my project");
+            #region Operador ternário
+
+            bool ativo = true;
+            string status = ativo ? "Cadastro Ativo" : "Cadastro Inativo";
+            Console.WriteLine($"O Resultado é: {status}");             
+
+            #endregion
+
+            Console.WriteLine("Finishing my code");
         }
     }
 }
