@@ -299,7 +299,7 @@ namespace learning_csharp
             //Stack: tem o mesmo padrão da lista genérica e tem o conceito lifo,
             //ultimo a entrar é o primeiro a sair
 
-            Stack<string> stack = new Stack<string>();
+            /*Stack<string> stack = new Stack<string>();
             stack.Push("Alexander");
             stack.Push("Nathalia");
 
@@ -312,7 +312,158 @@ namespace learning_csharp
             foreach (var item in stack)
             {
                 Console.WriteLine($"Minha Stack: {item}");
+            }*/
+
+            #endregion
+
+            #region IF/ELSE IF e ELSE / Estrutura de Controle
+            //Para fazer validações com essas estruturas de controle
+
+            /*int diaDaSemana = 0;
+            bool diaDeTrabalhar = true;
+
+            if(diaDaSemana == 7 && diaDeTrabalhar)
+            {
+                Console.WriteLine("Hoje é sexta-feira beBê bora trabalhar !!!");
             }
+            else if(diaDaSemana == 0 && diaDeTrabalhar){
+                Console.WriteLine("Hoje é Domingo, porém hoje eu vou trabalhar");
+            }
+            else
+            {
+                Console.WriteLine("Hoje é Sábado bora descansar");
+            }*/
+
+            #endregion
+
+            #region SWITCH / Estrutura de Controle
+            //é uma estrutura de dados simular o else if porém é mais adequada
+            // mais de uma instrução para seu programa
+
+            /*int diaDaSemana = 5;
+
+            switch (diaDaSemana)
+            {
+                case 0:
+                    Console.WriteLine("Hoje é Domingo");
+                    break;
+                case 1:
+                    Console.WriteLine("Hoje é Segunda-feira");
+                    break;
+                case 2:
+                    Console.WriteLine("Hoje é Terça-feira");
+                    break;
+                case 3:
+                    Console.WriteLine("Hoje é Quarta-feira");
+                    break;
+                case 4:
+                    Console.WriteLine("Hoje é Quinta-feira");
+                    break;
+                case 5:
+                    Console.WriteLine("Hoje é Sexta-feira");
+                    break;
+                case 6:
+                    Console.WriteLine("Hoje é Sábado dia de Culto bora");
+                    break;
+
+                default:
+                    Console.WriteLine("Não sei que dia é hoje shshshsh");
+                    break;
+            }*/
+
+            #endregion
+
+            #region FOR / Estrutura de Controle
+            //FOR:  é um conhecido como lanço de repetição, 
+            // é bastante popular quando queremos interação dentro de uma coleção
+
+            /*int numeroDaTabuada = 7;
+            List<int> numeros =  new List<int>();
+            numeros.Add(0);
+            numeros.Add(1);
+            numeros.Add(2);
+            numeros.Add(3);
+            numeros.Add(4);
+            numeros.Add(5);
+            numeros.Add(6);
+            numeros.Add(7);
+            numeros.Add(8);
+            numeros.Add(9);
+            numeros.Add(10);
+
+            Console.WriteLine($"Essa é a Tabuada do: {numeroDaTabuada}");
+
+            for (int i = 0; i < numeros.Count; i++)
+            {
+                int resultado = numeroDaTabuada * numeros[i];                
+                Console.WriteLine($"{numeroDaTabuada} X {numeros[i]} = {resultado}");
+            }*/
+
+            #endregion
+
+            #region FOREACH / Estrutura de Controle
+            //Foreach: é uma estrutura de controle, que usamos para acessar
+            //um item de uma coleção por exemple LinkedList.
+            //E também não precisar ter um indice para acessar os dados
+
+            /*LinkedList<int> libertadoresPalmeiras = new LinkedList<int>();
+            libertadoresPalmeiras.AddFirst(99);
+            libertadoresPalmeiras.AddFirst(20);
+            libertadoresPalmeiras.AddLast(21);
+
+            foreach (var item in libertadoresPalmeiras) 
+            {
+                Console.WriteLine($"Campeão da Libertadores em {item}");                
+            }
+
+            Console.WriteLine("Esse seremos Campeões mais uma vez !!!");
+            Console.WriteLine("AVANTI PALESTRA, LET'S GO PALMEIRAS !!!");*/
+
+            #endregion
+
+            #region WHILE DO WHILE / Estrutura de Controle
+            //WHILE OU DO WHILE: é uma estrutura de controle para fazer um laço de repitição
+
+            /*int i  = 0;
+            
+            while (i < 10) 
+            {
+                Console.WriteLine($"var i: {i}");
+                i++;
+            }
+
+            int x = 0;
+            do
+            {
+                Console.WriteLine($"var x: {x}");
+                x++;
+            } while (x < 20);*/
+
+            #endregion
+
+            #region BREAK E CONTINUE
+            //BREAK: após uma validação podemos interromper a execução do programa
+            //CONTINUE: é utilizado para processeguir a execução de um bloque código
+
+            var i = 0;
+            while (i < 5) 
+            {
+                if (i < 2)
+                {
+                    Console.WriteLine("Continue ....");
+                    i++;
+                    continue;
+                }
+                
+                Console.WriteLine($"var i = {i}");
+                i++;
+
+                if (i == 2)
+                {
+                    Console.WriteLine($"Valor de i é igual a 2: {i}");
+                    break;
+                }
+            }    
 
             #endregion
 
