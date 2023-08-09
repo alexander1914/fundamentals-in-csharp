@@ -493,20 +493,23 @@ namespace learning_csharp
             #endregion
 
             #region TryParse
+            // Ele recebe um valor e tem um valor de saida após a conversão.
+            // Temos o TryParse para todos os tipos primitivos do c#.
 
-            tryParse();
+            /*tryParse();
             
             static void tryParse()
             {
                 var numero = "123456789";
+                int numeroConvertido;
 
-                if(int.TryParse(numero, out int numeroConvertido))
+                if (int.TryParse(numero, out numeroConvertido))
                 {
                     Console.WriteLine("Numero foi convertido com sucesso !");
                 }
 
                 Console.WriteLine(numeroConvertido);
-            }
+            }*/
 
             #endregion
 
