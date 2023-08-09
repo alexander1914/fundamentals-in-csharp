@@ -445,7 +445,7 @@ namespace learning_csharp
             //BREAK: após uma validação podemos interromper a execução do programa
             //CONTINUE: é utilizado para processeguir a execução de um bloque código
 
-            var i = 0;
+            /*var i = 0;
             while (i < 5) 
             {
                 if (i < 2)
@@ -463,7 +463,50 @@ namespace learning_csharp
                     Console.WriteLine($"Valor de i é igual a 2: {i}");
                     break;
                 }
-            }    
+            }*/
+
+            #endregion
+
+            #region Convert/Parse
+
+            /*Conversores();
+            ConversoresComConvert();
+            
+            static void Conversores(){
+
+                int numero = int.Parse("1");
+                bool verdadeiro = bool.Parse("true");
+
+                Console.WriteLine(numero);
+                Console.WriteLine(verdadeiro);
+
+            }
+
+            static void ConversoresComConvert()
+            {
+                int numero = Convert.ToInt32("1");
+                double numero2 = Convert.ToDouble("1");
+                Console.WriteLine($"Usando a Classe Convert : {numero}");
+                Console.WriteLine($"Usando a Classe Convert : {numero2}");
+            }*/
+
+            #endregion
+
+            #region TryParse
+
+            tryParse();
+            
+            static void tryParse()
+            {
+                var numero = "123456789";
+
+                if(int.TryParse(numero, out int numeroConvertido))
+                {
+                    Console.WriteLine("Numero foi convertido com sucesso !");
+                }
+
+                Console.WriteLine(numeroConvertido);
+            }
 
             #endregion
 
