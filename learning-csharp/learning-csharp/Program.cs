@@ -513,6 +513,21 @@ namespace learning_csharp
 
             #endregion
 
+            #region Trabalhando com Strings
+
+            TrabalhandoStrings trabalhandoStrings = new TrabalhandoStrings();
+            //trabalhandoStrings.ConverterParaLetrasMinusculas();
+            //trabalhandoStrings.ConverterParaLetrasMaiusculas();
+            //trabalhandoStrings.Substrings();
+            //trabalhandoStrings.Range();
+            //trabalhandoStrings.Contains();
+            //trabalhandoStrings.MetodosTrims();
+            //trabalhandoStrings.StartWithEndWith();
+            //trabalhandoStrings.Replace();
+            trabalhandoStrings.Length();
+
+            #endregion
+
             Console.WriteLine("Finishing my code");
         }
     }
