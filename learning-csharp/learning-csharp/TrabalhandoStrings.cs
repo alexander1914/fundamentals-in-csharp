@@ -7,7 +7,7 @@ namespace learning_csharp
     class TrabalhandoStrings
     {
         #region ToLower()
-        // é método utilizado para converter letras minúsculas             
+        // É um método utilizado para converter letras minúsculas             
 
         public void ConverterParaLetrasMinusculas()
         {
@@ -19,7 +19,7 @@ namespace learning_csharp
         #endregion
 
         #region ToUpper()
-        // é método utilizado para converter letras maiusculas
+        // É um método utilizado para converter letras maiusculas
 
         public void ConverterParaLetrasMaiusculas() 
         {
@@ -31,7 +31,7 @@ namespace learning_csharp
         #endregion
 
         #region Substrings()
-        // é método utilizado para acessar os caracteres de uma string a partir das posição incial e final (0, 6) 
+        // É um método utilizado para acessar os caracteres de uma string a partir das posição incial e final (0, 6) 
 
         public void Substrings()
         {
@@ -43,7 +43,7 @@ namespace learning_csharp
         #endregion
 
         #region Range
-        // é método para acessar a string por range
+        // é uma forma para acessar a string por range
 
         public void Range()
         {
@@ -62,7 +62,7 @@ namespace learning_csharp
         #endregion
 
         #region Contains()
-        // é metódo para verificar(validar) se existe algum valor na cadeia de caracteres
+        // É um metódo para verificar(validar) se existe algum valor na cadeia de caracteres
 
         public void Contains()
         {
@@ -82,7 +82,7 @@ namespace learning_csharp
         #endregion
 
         #region Trim, TrimStart, TrimEnd()
-        // esses metódos são para remover caracteres de uma string
+        // esses métodos são para remover caracteres de uma string
         // OBS: se usar apenas o trim() sem paremetro ele vai remover os espaços
 
         public void MetodosTrims()
@@ -96,8 +96,8 @@ namespace learning_csharp
         #endregion
 
         #region StartsWith EndsWith()
-        // StartsWith: metódo para validar se inicia com uma determina palavra da string
-        // EndsWith:   metódo para validar se finaliza com uma determina palavra da string
+        // StartsWith: É um metódo para validar se inicia com uma determina palavra da string
+        // EndsWith:   É um metódo para validar se finaliza com uma determina palavra da string
 
         public void StartWithEndWith()
         {
@@ -109,7 +109,7 @@ namespace learning_csharp
         #endregion
 
         #region Replace()
-        // é metódo utilizado para substituir um valor de uma string
+        // É um metódo utilizado para substituir um valor de uma string
         //OBS: é necessário passar o valor atual da string e depois o novo valor para string
 
         public void Replace()
@@ -125,10 +125,11 @@ namespace learning_csharp
         #endregion
 
         #region Length
-        // é uma propriedade para mostrar a quantidade de caracter dentro da string
+        // É uma propriedade para mostrar a quantidade de caracter dentro da string
 
         public void Length()
         {
+            Console.WriteLine("Escreva qualquer coisa...");
             string teste = Console.ReadLine();
             Console.WriteLine(teste);
             Console.WriteLine($"Total de caracteres é: {teste.Length}");
