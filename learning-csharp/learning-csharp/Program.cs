@@ -11,6 +11,7 @@ namespace learning_csharp
         static void Main(string[] args)
         {
             Console.WriteLine("Starting my code");
+            Console.WriteLine();
 
             #region Variáveis
 
@@ -524,10 +525,24 @@ namespace learning_csharp
             //trabalhandoStrings.MetodosTrims();
             //trabalhandoStrings.StartWithEndWith();
             //trabalhandoStrings.Replace();
-            trabalhandoStrings.Length();
+            //trabalhandoStrings.Length();
 
             #endregion
 
+            #region Trabalhando com Datas
+
+            TrabalhandoComDatas trabalhandoComDatas = new TrabalhandoComDatas();
+            //trabalhandoComDatas.DateTimes();
+            //trabalhandoComDatas.SubtraindoDatas();
+            //trabalhandoComDatas.AdicionandoDiasMesesAnos();
+            //trabalhandoComDatas.AdicionandoHorasMinutosSecundos();
+            //trabalhandoComDatas.DiasDaSemana();
+            //trabalhandoComDatas.DateOnlyEmAcao();
+            trabalhandoComDatas.TimeOnlyEmAcao();
+
+            #endregion
+
+            Console.WriteLine();
             Console.WriteLine("Finishing my code");
         }
     }
