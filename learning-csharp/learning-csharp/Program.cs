@@ -202,7 +202,7 @@ namespace learning_csharp
 
             #region Treinando o LinkedList 
 
-            LinkedList<Int32> myList = new LinkedList<Int32>();
+            /*LinkedList<Int32> myList = new LinkedList<Int32>();
 
             Processando(1);
             Processando(2);
@@ -229,7 +229,7 @@ namespace learning_csharp
             LinkedList<Int32> RetornaMinhaLista()
             {
                 return myList;
-            }
+            }*/
 
             #endregion
 
@@ -538,7 +538,15 @@ namespace learning_csharp
             //trabalhandoComDatas.AdicionandoHorasMinutosSecundos();
             //trabalhandoComDatas.DiasDaSemana();
             //trabalhandoComDatas.DateOnlyEmAcao();
-            trabalhandoComDatas.TimeOnlyEmAcao();
+            //trabalhandoComDatas.TimeOnlyEmAcao();
+
+            #endregion
+
+            #region Trabalhando com Exceções
+
+            TrabalhandoComExcecoes trabalhandoComExcecoes = new TrabalhandoComExcecoes();
+            //trabalhandoComExcecoes.GerandoException();
+            //trabalhandoComExcecoes.TratandoException();
 
             #endregion
 
