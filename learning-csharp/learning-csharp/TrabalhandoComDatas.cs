@@ -29,7 +29,7 @@ namespace learning_csharp
             Console.WriteLine("DateTimeOffset: " + dateOffset.LocalDateTime);
             Console.WriteLine("DateTimeOffset: " + dateOffset.UtcDateTime);
 
-            Console.WriteLine("Formantando uma Data: " + dateTime.ToString("dd-MM-yyyy"));
+            Console.WriteLine("Formatando uma Data: " + dateTime.ToString("dd-MM-yyyy"));
             Console.WriteLine("Formantando uma Data com Hora: " + 
                 dateTime.ToString("dd-MM-yyyy HH:mm:ss"));
 

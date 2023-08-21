@@ -550,6 +550,15 @@ namespace learning_csharp
 
             #endregion
 
+            #region Trabalhando com Arquivos .NET
+
+            TrabalhandoComArquivos trabalhandoComArquivos = new TrabalhandoComArquivos();
+            //trabalhandoComArquivos.CriandoArquivo();
+            //trabalhandoComArquivos.LerArquivo();
+            //trabalhandoComArquivos.ExcluirArquivo();
+
+            #endregion
+
             Console.WriteLine();
             Console.WriteLine("Finishing my code");
         }
